@@ -25,3 +25,5 @@ Escalabilidade: reduz a complexidade à medida que seu projeto cresce.
 Caso de uso da vida real
 
 Vamos imaginar que temos uma plataforma de e-commerce trabalhando com o sistema de pagamento Stripe. Somos solicitados a mudar do Stripe para o PayPal. Na maioria das bases de código, uma reescrita de todos os componentes é necessária. Correndo o risco de regressão e precisando atualizar todos os testes. Com DI, basta criar um novo serviço e alterá-lo no provedor. Não são necessárias reescritas de componentes ou lógicas.
+
+blog https://blog.shadui.dev/implementing-dependency-injection-in-a-react-project/?ref=dailydev
