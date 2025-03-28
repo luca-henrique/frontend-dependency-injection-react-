@@ -1,4 +1,4 @@
 export interface PaymentGateway {
-  getBalance(): number;
+  getBalance(): Promise<number>;
   processPayment(amount: number): void;
 }
